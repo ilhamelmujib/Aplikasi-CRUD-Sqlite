@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah User"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        >
+
+    </Spinner>
+    <EditText
+        android:id="@+id/etNamaEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"
+        />
+    <EditText
+        android:id="@+id/etNisEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NIS"
+        />
+    <Button
+        android:id="@+id/btnSimpanEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simpan"
+        />
+</LinearLayout>
